@@ -66,7 +66,7 @@ func main() {
 		test := true
 		for i < len(outputNumbers)-1 {
 			if outputNumbers[i] > outputNumbers[i+1] {
-				fmt.Println("Array nicht sortiert. Versuche es nochmal!")
+				fmt.Println("Array nicht sortiert. Versuche es bitte nochmal!")
 				fmt.Println("Array: ", inputNumbers)
 
 				test = false
